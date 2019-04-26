@@ -1,5 +1,6 @@
 body {
     background-color: lightslategray;
+    /*border: 30px double darkslategray; */ 
 }
 
 h1 {
@@ -44,4 +45,23 @@ h1 {
     width: 100px;
     border: 3px solid black;
     border-radius: 100%;
+}
+#result-message{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 10px double black;
+    text-align: center;
+    font-size:80px;
+    color: darkred;
+    background-color: white;
+}
+#message-bubble{
+    display: flex;
+    justify-content: center;
+
+}
+/*main {
+    display: flex;
+    flex-direction: column;
 }
