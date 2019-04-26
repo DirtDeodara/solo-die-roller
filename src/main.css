@@ -1,6 +1,5 @@
 body  {
     background-color: lightslategray;
-    
 }
 
 h1  {
@@ -30,11 +29,6 @@ h1  {
     border-radius: 30px;
 }
 
-#roll-buttons  {
-    display: flex;
-    justify-content: space-evenly
-}
-
 #six-button {
     font-family: 'Bungee Inline', cursive;
     color: darkred;
@@ -62,9 +56,9 @@ h1  {
     border: 10px double black;
     text-align: center;
     font-size:110px;
-    color: darkred;
     background-color: white;
     box-shadow:  0 0 55px;
+    color: darkred;
 }
 #six-sided:hover {
     box-shadow:  0 0 80px black;

@@ -5,5 +5,3 @@ function randomWholeNum(number) {
 
 export default randomWholeNum;
   
-
-  //randomWholeNum20(7);  example evocation
