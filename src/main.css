@@ -1,0 +1,47 @@
+body {
+    background-color: lightslategray;
+}
+
+h1 {
+    text-align: center;
+    font-size: 10em;
+}
+
+#dice-images {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+#six-sided {
+    height: 500px;
+    border: 5px solid black;
+    background-color: white;
+    border-radius: 30px;
+}
+
+#twenty-sided {
+    height: 500px;
+    border: 5px solid black;
+    background-color: white;
+    border-radius: 30px;
+}
+
+#roll-buttons {
+    display: flex;
+    justify-content: space-evenly
+}
+
+#six-button{
+    font-size: 20px;
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    border-radius: 100%;
+}
+#twenty-button{
+    font-size: 20px;
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    border-radius: 100%;
+}
