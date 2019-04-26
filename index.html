@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="src/main.css">
+</head>
+<body>
+    <header>
+        <h1>Dice Generator</h1>
+        <h2></h2>
+    </header>
+    
+    <main>
+        <div id="dice-images">
+            <p>
+                <img id="six-sided" src="assets/6.png">
+            </p>
+            
+            <p>
+                <img id="twenty-sided" src="assets/20.png">
+            </p>
+        </div>
+
+        <div id="roll-buttons">
+            <button id="six-button">6 Sided</button>
+            <button id="twenty-button">20 Sided</button>
+        </div>
+
+        <div>
+            <p id="result-message"></p>
+        </div>
+    </main>
+
+    <script type="module" src="./src/index.js"></script>
+
+</body>
+</html>
