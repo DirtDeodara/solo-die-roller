@@ -2,8 +2,8 @@
 import randomWholeNum from './wholeNumbers.js'
 
 
-const rollSixButton = document.getElementById('six-button');
-const rollTwentyButton = document.getElementById('twenty-button');
+const rollSixButton = document.getElementById('six-sided');
+const rollTwentyButton = document.getElementById('twenty-sided');
 const  resultMessage = document.getElementById('result-message');
 
 //initiallize some stuff
@@ -13,7 +13,6 @@ const  resultMessage = document.getElementById('result-message');
 
 rollSixButton.addEventListener('click', () => {
     resultMessage.textContent = randomWholeNum(7);
-    console.log('rolled');
 });
 
 rollTwentyButton.addEventListener('click', () => {
