@@ -9,7 +9,7 @@ h1  {
     font-size: 150px;
     color: rgb(90, 1, 1);
     text-shadow: 10px 20px 5px rgb(66, 25, 25);
-    /*transform: skewY(10deg);*/
+    
 }
 
 #dice-images  {
