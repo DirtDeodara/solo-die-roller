@@ -1,0 +1,74 @@
+body  {
+    background-color: lightslategray;
+    font-family: 'Bungee Inline', cursive;
+}
+
+h1  {
+    font-family: 'Bungee Inline', cursive;
+    text-align: center;
+    font-size: 150px;
+    color: rgb(90, 1, 1);
+    text-shadow: 10px 20px 5px rgb(66, 25, 25);
+    
+}
+
+#dice-images  {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+#six-sided  {
+    height: 500px;
+    border: 5px solid black;
+    background-color: white;
+    border-radius: 30px;
+}
+
+#twenty-sided  {
+    height: 500px;
+    border: 5px solid black;
+    background-color: white;
+    border-radius: 30px;
+}
+
+#six-button {
+    font-family: 'Bungee Inline', cursive;
+    color: darkred;
+    font-size: 30px;
+    height: 150px;
+    width: 150px;
+    border: 4px solid black;
+    border-radius: 100%;
+}
+
+#twenty-button {
+    font-family: 'Bungee Inline', cursive;
+    color: darkred;
+    font-size: 30px;
+    height: 150px;
+    width: 150px;
+    border: 4px solid black;
+    border-radius: 100%;
+}
+
+#result-message {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    border: 10px double black;
+    text-align: center;
+    font-size:110px;
+    background-color: white;
+    box-shadow:  0 0 55px;
+    color: darkred;
+}
+#six-sided:hover {
+    box-shadow:  0 0 80px black;
+}
+#twenty-sided:hover {
+    box-shadow:  0 0 80px black;
+}
+#message-bubble {
+    display: flex;
+    justify-content: center;
+}
